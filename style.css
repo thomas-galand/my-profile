@@ -1,0 +1,145 @@
+body {
+	background-color:navajowhite;
+	color: rgb(30, 30, 30);
+	font-family: Times
+
+;
+
+ 
+}
+h1, h2, h3 {
+	font-family: font-family: 'Radio Canada', sans-serif;
+	
+
+
+}
+h1 {
+	color: blue;
+	font-family: font-family: 'Radio Canada', sans-serif;;
+	font-weight: bold;
+	letter-spacing: 10px;
+	font-size: 32px;
+	text-transform: uppercase;
+}
+h2 {
+	color: blue;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: font-family: 'Radio Canada', sans-serif;;
+}
+a {
+  color: purple;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: whitesmoke;
+  text-decoration: none;
+
+}
+
+#D1 {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+
+}
+
+#titre-gras {
+	font-weight: bold;
+	color: blue;
+
+}
+
+.image-ronde {
+	border-radius: 50%;
+}
+
+#D2 {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+
+}
+#D3 {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+
+}
+#D4 {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+
+}
+#D5 {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.btn-blue {
+	background-color: skyblue;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    color: whitesmoke;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: black;
+	color: whitesmoke;
+}
+.list-inline {
+	  list-style: none;
+	  padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+#introduction  {
+	margin-bottom: 40px;
+
+}
+@media (max-width: 960px) {
+ 
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+
+  .container {
+    width: 300px;
+  }
+}
